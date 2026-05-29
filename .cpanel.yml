@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/onlijtde/public_html/firstpictureshowcompany
+    - /bin/cp -R dist/* $DEPLOYPATH
