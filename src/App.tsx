@@ -25,7 +25,7 @@ const WORK_PANELS: WorkPanel[] = [
     client: 'KALYAN\nSILKS',
     title: 'Fazyo',
     image:
-      '../uploads/work1.webp',
+      '/firstpictureshowcompany/uploads/work1.webp',
     video: { type: 'vimeo', id: '1107472292' },
   },
   {
@@ -34,7 +34,7 @@ const WORK_PANELS: WorkPanel[] = [
     client: "VESTA\nICE CREAMS",
     title: 'Vesta Ice Crush',
     image:
-      '../uploads/vesta.webp',
+      '/firstpictureshowcompany/uploads/vesta.webp',
     video: { type: 'vimeo', id: '1107472212' },
   },
   {
@@ -43,16 +43,16 @@ const WORK_PANELS: WorkPanel[] = [
     client: 'KANCHANA\nFOOD PRODUCTS',
     title: "Kanchana Sambar Master Film",
     image:
-      '../uploads/work3.webp',
+      '/firstpictureshowcompany/uploads/work3.webp',
     video: { type: 'vimeo', id: '1107472644' },
   },
 ];
 
 const BTS_IMAGES = [
-  '../uploads/471163289.jpg',
-  '../uploads/480953620.jpg',
-  '../uploads/481995696.jpg',
-  '../uploads/481074380.jpg',
+  '/firstpictureshowcompany/uploads/471163289.jpg',
+  '/firstpictureshowcompany/uploads/480953620.jpg',
+  '/firstpictureshowcompany/uploads/481995696.jpg',
+  '/firstpictureshowcompany/uploads/481074380.jpg',
 ];
 
 const CLIENTS = [
@@ -109,7 +109,7 @@ const COLLAGE_ITEMS: CollageItem[] = [
     tag: 'WAR · ACTION',
     ratio: '2/3',
     video: { type: 'youtube', id: '_KBqYgNyusU' },
-    image: '../uploads/Yeahhhhh..... Hooooooo.png'
+    image: '/firstpictureshowcompany/uploads/Yeahhhhh..... Hooooooo.png'
   },
   {
     id: 'avatar-way-of-water',
@@ -145,7 +145,7 @@ const COLLAGE_ITEMS: CollageItem[] = [
     tag: 'DRAMA · FAMILY',
     ratio: '2/3',
     video: { type: 'youtube', id: 'pC7L6OW3PvU' },
-    image: '../uploads/1_1.40.1.webp'
+    image: '/firstpictureshowcompany/uploads/1_1.40.1.webp'
   },
   {
     id: 'banshees-of-inisherin',
@@ -786,7 +786,7 @@ export default function App() {
         <div className="services-media reveal">
           <img
             className="services-img"
-            src="../uploads/services.webp"
+            src="/firstpictureshowcompany/uploads/services.webp"
             alt="Services"
             loading="lazy"
           />
@@ -846,7 +846,7 @@ export default function App() {
         <div className="media-right reveal d1">
           <img
             className="about-img"
-            src="../uploads/about.webp"
+            src="/firstpictureshowcompany/uploads/about.webp"
             alt="About First Picture Show Company"
             loading="lazy"
           />
